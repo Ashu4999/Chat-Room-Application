@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;  
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+form input[type=text], button {
+    font-size: 1.5rem;
+}
+
+form input[type=text] {
+    border-radius: 5px;
+}
+
+#chat-area {
+    list-style: none;
+    width: 500px;
+    margin: 2rem auto 0;
+}
